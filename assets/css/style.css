@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parisienne&family=Quicksand:wght@300..700&display=swap');
+
+
+
+:root {
+--primary-color: #b9cac9;
+--secundary-color: #efefe5;
+--terciary-color: #4e6f79;
+
+}
+
+
+*{
+box-sizing: border-box;
+outline: 0;
+
+}
+
+
+body{
+   display:block;
+   justify-content: center;
+   align-items: center;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', 'quicksand';
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+
+button {
+ 
+ width: 60px; 
+  background: var(--terciary-color);
+color: var(--secundary-color);
+border: none;
+cursor: pointer;
+margin-left: 120px;
+border-radius: 20px 0px 0px;
+
+}
+
+
+button:hover {
+ 
+   width: 60px;
+   background: var(--secundary-color);
+   color: var(--terciary-color);
+   border-radius: 0px 0 20px;
+   }
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+.container {
+    color: var(--terciary-color);
+max-width: 640px;
+margin-top: 180px;
+margin-left: 300px;
+background: #ffff;
+padding: 20px;
+font-family: 'quicksand';
+box-shadow: -10px -10px 20px var(--secundary-color);
+
+}
+
+form input, form lavel, form  button {
+   display: block;
+   width: 100%;
+   margin-bottom: 16px;
+    
+}
+
+form input{
+    font-size: 20px;
+    height: 36px;
+    padding: 8px;
+ 
+}
+
+
+
+form button {
+  font-size: 20px;
+  font-family: 'quicksand';
+    background-color: var(--primary-color);
+    color: #ffff;
+    border: none;
+    border-radius: 220px;
+    font-weight: 800px;
+    height: 50px;
+    cursor: pointer;     
+}
+
+
+form button:hover {
+    color: var(--secundary-color);
+    background-color: var(--primary-color);
+    border-radius: 0px;
+    font-style: italic;
+   
+}
+
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+       font-family: 'parisienne';
+   color: var(--terciary-color);
+    }
+    
+
+    
+        
+
+
+
+    b{
+color:var(--secundary-color);
+
+    }
+
+
+ .relogio {
+    margin-left: 250px;
+font-size: 30px;
+font-family: 'Quicksand';
+
+ }
+
+
+ .pausado {
+    color: var(--secundary-color);
+ }
